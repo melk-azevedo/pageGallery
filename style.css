@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+}
+
+.banner1 {
+    width: 1380px;
+    height: 970px;
+    margin: auto;
+}
+
+.banner1 nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+nav ul {
+    display: flex;
+    gap: 70px;
+    list-style: none;
+    padding-left: 30px;
+}
+
+nav ul select#prod {
+    width: 90px;
+    height: 24px;
+    background-position: left 45px top 1px;
+}
+
+nav ul select + select {
+    width: 60px;
+    height: 24px;
+    background-position: left 40px top 1px;
+}
+nav ul select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+
+    background: white;
+    background-image: url(images/setaSelect.svg);
+    background-repeat: no-repeat;
+}
+
+
+#logo {
+    padding: 24px 0 18px 100px;
+}
+
+nav #search {
+    width: 347px;
+    height: 42px;
+    border-radius: 30px;
+    background: #F3F2F2;
+
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    gap: 20px;
+}
+
+nav #carrinho {
+    width: 111px;
+    height: 27.41px;
+    padding: 0 30px;
+
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+#perfil {
+    padding-right: 38px;
+}
+
+section {
+    width: 1380px;
+    height: 854px;
+    border-radius: 100px;
+    background: #F3F2F2;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+main h1 {
+    width: 500px;
+    height: 447px;
+    margin: 103px 0 167px 174px;
+
+
+    font-size: 128px;
+    line-height: 150px;
+
+}
+
+main #cadeiraVerde {
+    border-radius: 380px;
+
+}
+
+button#pecaAgora {
+    width: 258px;
+    height: 86px;
+    border-radius: 30px;
+
+    background: black;
+    color: white;
+
+    position: absolute;
+    bottom: 51px;
+}
