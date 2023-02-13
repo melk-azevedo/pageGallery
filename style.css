@@ -4,13 +4,16 @@
     box-sizing: border-box;
 }
 
+body, button, select {
+    font-family: 'Azeret Mono', monospace;
+}
+
 body {
     background: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 200px;
-    font-family: 'Azeret Mono', monospace;
 }
 
 .banner1 {
@@ -35,13 +38,12 @@ nav ul {
     gap: 70px;
     list-style: none;
     padding-left: 1px;
-
 }
 
 nav ul select#prod {
     width: 116px;
     height: 24px;
-    background-position: left 78px top 1px;
+    background-position: left 90px top 1px;
 
     font-size: 20px;
     line-height: 23px;
@@ -51,13 +53,12 @@ nav ul select#prod {
 nav ul select#page {
     width: 90px;
     height: 24px;
-    background-position: left 60px top 1px;
-
+    background-position: left 63px top 1px;
+    
     font-size: 20px;
     line-height: 23px;
     font-weight: 700;
 }
-
 nav ul select {
     appearance: none;
     -webkit-appearance: none;
@@ -68,7 +69,6 @@ nav ul select {
     background-image: url(img-banner1/setaSelect.svg);
     background-repeat: no-repeat;
 }
-
 
 #logo {
     padding: 24px 52px 18px 135px;
@@ -97,7 +97,6 @@ nav #carrinho {
     display: flex;
     align-items: center;
     gap: 9px;
-
 }
 
 #perfil {
@@ -120,7 +119,6 @@ section {
 #main1 {
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
 }
 
 #main1 h1 {
@@ -131,7 +129,6 @@ section {
     font-size: 128px;
     line-height: 150px;
     font-weight: 400;
-
 }
 
 #main1 #cadeiraVerde {
@@ -185,9 +182,9 @@ button#pecaAgora {
 }
 
 #main2 p {
-    font-size: 20px;
-    line-height: 42px;
-    font-weight: 400;
+font-size: 20px;
+line-height: 42px;
+font-weight: 400;
 }
 
 #main2 #arrow {
@@ -251,9 +248,7 @@ button#pecaAgora {
     gap: 17px;
 }
 
-#main3 .img1,
-.img2,
-.img3 {
+#main3 .img1, .img2, .img3 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -261,12 +256,11 @@ button#pecaAgora {
 
 #main3 figure h2 {
     padding: 48px 0 30px;
-
+    
     font-size: 36px;
     line-height: 42px;
     font-weight: 700;
 }
-
 #main3 figure p {
     font-size: 16px;
     line-height: 19px;
@@ -274,16 +268,21 @@ button#pecaAgora {
 }
 
 #main3 figure button {
-    margin: 30px 0 202px 0;
-
+    margin: 30px 0;
+    
     width: 182px;
     height: 40px;
     border-radius: 30px;
-
+    
     font-size: 20px;
     line-height: 23px;
     font-weight: 400;
-
+    
     background: black;
     color: white;
+}
+
+#main3 button #circle {
+    background-image: url(img-banner3/circle.svg);
+
 }
