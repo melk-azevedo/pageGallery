@@ -2,15 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body, button, select {
     font-family: 'Azeret Mono', monospace;
 }
 
-button, select, ul{
+img, button, select, ul {
+    transition: all 0.4s;
     cursor: pointer;
 }
+
+img:hover {
+    transform: scale(1.1);
+}
+
 body {
     background: white;
     display: flex;
@@ -57,7 +60,7 @@ nav ul select#page {
     width: 90px;
     height: 24px;
     background-position: left 63px top 1px;
-      
+
     font-size: 20px;
     line-height: 23px;
     font-weight: 700;
@@ -132,10 +135,7 @@ section {
     font-size: 128px;
     line-height: 150px;
     font-weight: 400;
-}
 
-#main1 #cadeiraVerde {
-    border-radius: 380px;
 }
 
 button#pecaAgora {
