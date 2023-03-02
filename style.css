@@ -5,13 +5,17 @@
     font-family: 'Azeret Mono', monospace;
 }
 
-img, button, select, ul {
+img,
+button,
+select,
+ul {
     transition: all 0.4s ease-in-out;
     cursor: pointer;
 }
 
-img:hover {
-    transform: scale(1.1);
+figure:hover> :not(:hover) {
+    opacity: .4;
+    transform: scale(0.9);
 }
 
 body {
@@ -60,11 +64,12 @@ nav ul select#page {
     width: 90px;
     height: 24px;
     background-position: left 63px top 1px;
-    
+
     font-size: 20px;
     line-height: 23px;
     font-weight: 700;
 }
+
 nav ul select {
     appearance: none;
     -webkit-appearance: none;
@@ -144,7 +149,7 @@ button#pecaAgora {
     height: 90px;
     border-radius: 30px;
     padding: 22px 24px;
-    
+
     background: black;
     color: #F3F2F2;
 
@@ -186,9 +191,9 @@ button#pecaAgora {
 }
 
 #main2 p {
-font-size: 20px;
-line-height: 42px;
-font-weight: 400;
+    font-size: 20px;
+    line-height: 42px;
+    font-weight: 400;
 }
 
 #main2 #arrow {
@@ -252,7 +257,9 @@ font-weight: 400;
     gap: 17px;
 }
 
-#main3 .img1, .img2, .img3 {
+#main3 .img1,
+.img2,
+.img3 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -260,11 +267,12 @@ font-weight: 400;
 
 #main3 figure h2 {
     padding: 48px 0 30px;
-    
+
     font-size: 36px;
     line-height: 42px;
     font-weight: 700;
 }
+
 #main3 figure p {
     font-size: 16px;
     line-height: 19px;
@@ -278,15 +286,15 @@ font-weight: 400;
     border: none;
 
     margin: 30px 0;
-    
+
     width: 182px;
     height: 40px;
     border-radius: 30px;
-    
+
     font-size: 20px;
     line-height: 23px;
     font-weight: 400;
-    
+
     background: black;
     color: white;
 }
@@ -325,4 +333,46 @@ font-weight: 400;
     font-size: 20px;
     line-height: 23px;
     font-weight: 400;
+}
+
+.banner5 {
+    width: 1440px;
+    height: 994px;
+
+    background: #F3F2F2;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+}
+
+.banner5 #main5 {
+    display: flex;
+    align-items: center;
+    gap: 102px;
+    padding: 88px 0 71px 123px;
+}
+
+.banner5 h2 {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;
+}
+
+.banner5 p {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 400;
+    letter-spacing: 2px;
+
+    margin: 66px 0 30px;
+}
+
+.banner5 #main5 article {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 98px;
+    justify-items: center;
+    align-items: start;
 }
