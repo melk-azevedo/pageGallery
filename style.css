@@ -369,10 +369,50 @@ button#pecaAgora {
     margin: 66px 0 30px;
 }
 
+.banner1 article .col4 p {
+    margin-top: 106px;
+}
+
 .banner5 #main5 article {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 98px;
-    justify-items: center;
-    align-items: start;
+}
+
+.banner5 #section {
+    width: 718px;
+    height: 197px;
+
+    background: #E0E0E0;
+}
+
+.banner5 #section h2 {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;
+
+    padding: 23px 31px 36px;
+}
+
+.banner5 #section label {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 300;
+    margin-left: 41px;
+}
+
+.banner5 #section p {
+    width: 654px;
+    border: 1px solid black;
+    margin: 9px 32px 69px;
+}
+
+.banner5 footer {
+    display: flex;
+}
+
+.banner5 footer p:nth-child(2) {
+    width: 654px;
+    border: 1px solid black;
+    padding: 0;
 }
