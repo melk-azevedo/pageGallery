@@ -366,11 +366,7 @@ button#pecaAgora {
     font-weight: 400;
     letter-spacing: 2px;
 
-    margin: 66px 0 30px;
-}
-
-.banner1 article .col4 p {
-    margin-top: 106px;
+    margin: 57px 0 30px;
 }
 
 .banner5 #main5 article {
@@ -413,6 +409,7 @@ button#pecaAgora {
 
 .banner5 footer p:nth-child(2) {
     width: 654px;
+    height: 0;
     border: 1px solid black;
-    padding: 0;
+    margin: 67px 10px 0;
 }
